@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Nova Studios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Join the Team</h2>
+    <p class="subtitle">Apply for your next big role at Nova Studios.</p>
+    <form id="app-form" novalidate>
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+      </div>
+      <div class="form-group">
+        <label for="message">Why should we hire you?</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <button type="submit">Submit Application</button>
+      <div id="status"></div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
